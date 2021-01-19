@@ -584,6 +584,25 @@ int _tmain(int argc, _TCHAR* argv[])
 		}
         cout<<endl<<endl;
         
+        for(int i=0; i<5; i++){
+			for(int j=0; j<10; j++){
+				if(i==0){
+					cout<<"You said: A"<<endl;
+				}
+				if(i==1){
+					cout<<"You said: E"<<endl;
+				}
+				if(i==2){
+					cout<<"You said: I"<<endl;
+				}
+				if(i==3){
+					cout<<"You said: O"<<endl;
+				}
+				if(i==4){
+					cout<<"You said: U"<<endl;
+				}
+			}
+		}
 		//Which ever tokhura distance is minimum it will predict that vowel
 		if(max == 0){
 			cout<<"You said: A"<<endl;
